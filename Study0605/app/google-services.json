@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "40140366851",
+    "firebase_url": "https://caramel-comfort-242809.firebaseio.com",
+    "project_id": "caramel-comfort-242809",
+    "storage_bucket": "caramel-comfort-242809.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:40140366851:android:70f56250f16338be",
+        "android_client_info": {
+          "package_name": "com.example.study0605"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "40140366851-8meoai9446ksrbadhhj1aott6hgtue4l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.study0605",
+            "certificate_hash": "9ea354624d59a47a70ead80e01ca864942366f76"
+          }
+        },
+        {
+          "client_id": "40140366851-hi766qk3lh7fq23598lh62rlii8e60d0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPcN-agbxHLP5suxoqAVeK13xHR0VY7xE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "40140366851-hi766qk3lh7fq23598lh62rlii8e60d0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+
+
+>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="395dp"
+            android:layout_height="150dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" android:id="@+id/linearLayout">
+
+        <Button
+                android:id="@+id/gotosub1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="gotosub1"
+        />
+        <Button
+                android:id="@+id/gotosub2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="gotosub2"
+        />
+        <Button
+                android:id="@+id/gotosub3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="gotosub3"
+        />
+    </LinearLayout>
+    <TextView
+            android:text="Main View"
+            android:textSize="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+    <EditText
+            android:id="@+id/et_hello"
+            android:text="input text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+</android.support.constraint.ConstraintLayout>
